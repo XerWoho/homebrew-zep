@@ -24,6 +24,6 @@ class Zep < Formula
 	end
 
   test do
-    system "#{bin}/zep", "--version"
+    system "#{bin}/zep", "version"
   end
 end
