@@ -20,7 +20,7 @@ class Zep < Formula
     def post_install
 		ohai "--- ZEP CONFIG REQUIRED ---"
 		puts " ==> Run 'zep setup' to configure zep"
-		puts " ==> Then run: zep zep install 0.7"
+		puts " ==> Then run: zep zep install 0.8"
 	end
 
   test do
