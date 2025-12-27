@@ -4,13 +4,13 @@ class Zep < Formula
   license "GPLv3"
 
   on_macos do
-    url "https://zep.run/releases/0.8/zep_x86_64-macos_0.8.tar.xz"
-    sha256 "12dd94a0effb0226b8436a912ddd44788805277878382207bc0bb1b52323417a"
+    url "https://zep.run/releases/0.9.0/zep_x86_64-macos_0.9.0.tar.xz"
+    sha256 "77abd0ec8c0bb6d42372c3b5b430165e2b48930596d7d2eb1af914bceae859b7"
   end
 
   on_linux do
-    url "https://zep.run/releases/0.8/zep_x86_64-linux_0.8.tar.xz"
-    sha256 "61da5e4164913072404c273aae6966cc86f76d830e8f59462973986a6b558945"
+    url "https://zep.run/releases/0.9.0/zep_x86_64-linux_0.9.0.tar.xz"
+    sha256 "7410885b1fde6b7ac1ca0318f74e2292be1bc9b559edc92e9d11590be172c92d"
   end
 
   def install
@@ -20,7 +20,7 @@ class Zep < Formula
     def post_install
 		ohai "--- ZEP CONFIG REQUIRED ---"
 		puts " ==> Run 'zep setup' to configure zep"
-		puts " ==> Then run: zep zep install 0.8"
+		puts " ==> Then run: zep zep install 0.9.0"
 	end
 
   test do
