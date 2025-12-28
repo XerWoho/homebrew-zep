@@ -5,12 +5,12 @@ class Zep < Formula
 
   on_macos do
     url "https://zep.run/releases/0.9.0/zep_x86_64-macos_0.9.0.tar.xz"
-    sha256 "ac13f031ccdb05664a332dcbd69f6ce82e9587906dabcd43a81cfde3af04bf4c"
+    sha256 "d6f77bd81285eded86cfc080bfc535ad515ba14b08acb1668bd5d0aea6f32e74"
   end
 
   on_linux do
     url "https://zep.run/releases/0.9.0/zep_x86_64-linux_0.9.0.tar.xz"
-    sha256 "9e1e516e35b693bf36b9f21eac9f42298f9d34a9f90d91fb968d5c165e54a326"
+    sha256 "37d09229bcec6efaa3b66d0143b27d305040b34ecbc51089169fe0db6919d676"
   end
 
   def install
